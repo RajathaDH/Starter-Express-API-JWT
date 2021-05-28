@@ -1,0 +1,30 @@
+{
+  "name": "starter-express-api-jwt",
+  "version": "1.0.0",
+  "description": "Starter files for a basic express API with JWT authentication.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RajathaDH/Starter-Express-API-JWT.git"
+  },
+  "author": "Rajatha DH",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/RajathaDH/Starter-Express-API-JWT/issues"
+  },
+  "homepage": "https://github.com/RajathaDH/Starter-Express-API-JWT#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.12.11"
+  },
+  "devDependencies": {
+    "dotenv": "^10.0.0",
+    "nodemon": "^2.0.7"
+  }
+}
